@@ -1,0 +1,28 @@
+/*
+jQuery(document).ready(function () {
+    jQuery("#imtst_form").submit(function (e) {
+        e.preventDefault();
+
+       var formData = jQuery( this ).serialize();
+       file = jQuery('#imtst_file_input')[0].files;
+       console.log(file);
+       file_name = file[0]['name'];
+       formData.action = 'imtst_submit_form';
+       formData += "&filename=" + file_name;
+       formData += "&action=imtst_submit_form";
+
+        jQuery.ajax({
+            type : "post",
+            url: window.ajax_url,
+            data: formData,
+            success: function(response){
+                 success_div = "<div id='success_div' class='success_div'>"+response+"</div>";
+                 if(jQuery("#success_div").length===0){
+                      jQuery("#imtst_form").append(success_div);
+                      jQuery("#success_div").fadeIn(500);
+                 }
+            }
+        });
+    });
+});
+*/

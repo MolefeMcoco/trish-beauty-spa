@@ -1,0 +1,20 @@
+jQuery(function(){
+	jQuery('.pix_box').each(function(){
+		var t = jQuery(this),
+			cookie = t.attr('data-cookie');
+		if ( typeof cookie !== 'undefined' ) {
+			if ( jQuery.cookie('shortcodelic_box') != cookie ) {
+				t.css({display:'block'});
+			} else {
+				t.remove();
+			}
+			jQuery('.close-box-sc',t).off('click');
+			jQuery('.close-box-sc',t).on('click', function(){
+				t.fadeOut({duration: 250, queue: false}).slideUp(250,function(){
+					t.remove();
+				});
+				jQuery.cookie('shortcodelic_box', cookie, { expires: 30, path: '/' });
+			});
+		}
+	});
+});

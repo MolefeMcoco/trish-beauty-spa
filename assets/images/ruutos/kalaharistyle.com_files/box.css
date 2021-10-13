@@ -1,0 +1,72 @@
+.pix_box {
+  border: 1px solid #eee;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  font-size: .975em;
+  margin-bottom: 1em;
+  padding: 1em 2em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.pix_box:before,
+.pix_box:after {
+  content: "";
+  display: table;
+}
+.pix_box:after {
+  clear: both;
+}
+.pix_box[data-cookie] {
+  display: none;
+}
+.pix_box.topicon .shortcodelic-featured-icon {
+  display: block;
+  padding: 2em 0 0.5em;
+  text-align: center;
+  width: 100%;
+}
+.pix_box.lefticon {
+  text-align: left;
+}
+.pix_box.lefticon .shortcodelic-featured-icon {
+  display: table-cell;
+  padding: 0 2em 0 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.pix_box.lefticon .shortcodelic-content-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.pix_box.righticon {
+  text-align: right;
+}
+.pix_box.righticon .shortcodelic-featured-icon {
+  display: table-cell;
+  padding: 0 0 0 2em;
+  height: 100%;
+  vertical-align: middle;
+}
+.pix_box.righticon .shortcodelic-content-box {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.pix_box .close-box-sc {
+  background: #eee;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  height: 2em;
+  line-height: 2em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 2em;
+}

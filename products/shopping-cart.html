@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../assets/images/favicon.jpg">
+	<title>Trish Beauty Spa - Shopping Cart</title>
+	<!--CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/navbar.css" rel="stylesheet">
+    <link href="../assets/css/carousel.css" rel="stylesheet">
+    <link href="../assets/css/animate.min.css" rel="stylesheet">
+    <link href="../assets/css/featherlight.min.css" rel="stylesheet">
+    <link href="../assets/css/featherlight.gallery.min.css" rel="stylesheet">
+    <link href="../assets/css/responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)">
+</head>
+<body id="body">s
+      <div id="wrapper">
+        <div id="info">
+          <div id="info-content">
+            
+          </div>
+        </div>
+
+        <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
+        <div class="menu">
+          <label class="menu-toggle" for="menu"><span>Toggle</span></label>
+          <div class="side_nav">
+              <div class="logo">
+                <a href="../index.html"><img class="img-responsive" src="../assets/images/logobig.jpg"></a>
+              </div>
+              <nav role="navigation">
+                <ul class="nav flex-column">
+                  <li><a href="../index.html"><i class="fa fa-home"></i></a></li>
+                  <li class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="../nails.html">Nails</a></li>
+                      <li><a href="../hair.html">Hair</a></li>
+                      <li><a href="../makeup.html">MakeUp</a></li>
+                      <li><a href="../wax.html">Wax</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown active">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Products<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="link" href="kalahari.html">Kalahari</a></li>
+                      <li class="active"><a href="ruutos.html">ruutos</a></li>
+                      <li><a class="link" href="kryolan.html">Kryolan</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="../gallery.html">Gallery</a></li>
+                  <li><a href="../contact.html">Contact Us </a></li>
+                  <li><a href="../about.html">About Us</a></li>
+                </ul>
+              </nav>
+            </div>
+        </div>
+      </div><!-- #wrapper -->
+      <div class="more_contact"></div>
+
+      <div>
+        <a href="shopping-cart.html"  class="cart"><i class="fa fa-shopping-cart"> </i></a>
+      </div>
+
+      
+    <section id="main">
+
+    	<section class="container-fluid">
+         <div class="row">
+
+           <div class="col-md-12 mobile_padding">
+             <!--Top Contact-->
+              <div class="top_contact">
+                <div class="item_container col-md-3 col-sm-6 col-xs-6">
+                  <ul class="">
+                    <li class="fa fa-2x fa-clock-o animated fadeInLeft slow"><i></i></li>
+                    <li class="item_text"><span class="heading">Opening Time</span><br><span class="sub_heading">Mon - Sun: 09H00 - 18H00</span></li>
+                  </ul>
+                </div>
+                <div class="item_container col-md-3 col-sm-6 col-xs-6">
+                  <ul>
+                    <li class="fa fa-2x fa-map-marker animated fadeInLeft slow"><i></i></li>
+                    <li class="item_text"><span class="heading">Address</span><br><span class="sub_heading">Shop 7b Ratanda Mall Heidelberg</span><br><span class="sub_heading">Shop A5 Spruitview Shopping Center Spruitview</span></li>
+                  </ul>
+                </div>
+                <div class="item_container col-md-3 col-sm-6 col-xs-6">
+                  <ul>
+                    <li class="fa fa-2x fa-phone animated fadeInLeft slow"><i></i></li>
+                    <li class="item_text"><span class="heading">Telephone</span><br><span class="sub_heading"> (016) 343 7000</span></li>
+                  </ul>
+                </div>
+                <div class="item_container col-md-3 col-sm-6 col-xs-6">
+                  <ul>
+                    <li class="fa fa-2x fa-envelope animated fadeInLeft slow"><i></i></li>
+                    <li class="item_text"><span class="heading">Email</span><br><span class="sub_heading">  trish@trishbeautyspa.co.za</span></li>
+                  </ul>
+                </div>
+              </div>
+           </div>
+         </div>
+       </section>
+    <section class="shopping_cart">
+	   <div  class="container">
+        <div class="row">
+          <div class="col-md-12"><h1>Your Cart</h1></div>
+        </div>
+	   		<div class="row">
+          <div>
+                    <div class="simpleCart_items"></div></td>
+
+
+
+                        <div id="cartTotal"><strong>Total: </strong><span class="simpleCart_total"></span></div>
+
+            <noscript><a href="no_javascript.html" class="simpleCart_empty">Empty Cart</a>;</noscript>
+            <script>document.write('<a href="#" class="simpleCart_empty">Empty Cart</a>');</script>
+            </td>
+
+            <noscript><a href="no_javascript.html" class="simpleCart_checkout">Checkout</a>;</noscript>
+                      <script>document.write('<a href="#" class="first_checkout" onclick="captureAddress();return false;">Checkout</a>');</script>
+
+          <div style="display:none;">
+                <div id="form">
+                        <h4>Your Address</h4>
+                        Line 1: <input class='info' type='text'><br>
+                        Line 2: <input class='info' type='text'><br>
+                        City: <input class='info' type='text'><br>
+                        Post Code: <input class='info' type='text'><br>
+                        Province: <input class='info' type='text'><br>
+                        <a href="#" class="simpleCart_checkout">Checkout</a> 
+                </div>
+            </div>
+          </div>
+	   		</div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="go_back">
+              <a href="javascript:history.go(-1)" title="Go Back"> Continue Shopping &laquo;  </a>
+            </p>
+          </div>
+        </div>
+	   </div>
+   </section>
+<!--JavaScript
+    ================================================== -->
+    <script src="../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.localScroll.min.js"></script>
+    <script src="../form.js"></script>
+    <script src="../assets/js/jquery.scrollTo.min.js"></script>
+    <script src="../assets/js/simpleCart.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/jquery.detect_swipe.js"></script>
+    <script src="../assets/js/featherlight.min.js"></script>
+    <script src="../assets/js/featherlight.gallery.min.js"></script>
+    <script src="../assets/js/jquery.validate.min.js"></script>
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../assets/js/readmore.min.js"></script>
+</body>
+</html>

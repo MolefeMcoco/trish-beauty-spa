@@ -1,0 +1,379 @@
+  .loaded{
+    left: 40%;
+    top: 40%;
+  }
+
+
+.welcome_banner{
+  width: 90%;
+}
+
+.welcome_banner h1{
+  font-size: 40px;
+}
+
+.top_contact{
+  min-height: 100px;
+}
+
+.item_container{
+  width: 50%;
+}
+
+
+
+@media screen and (max-width:991px){
+  .service_item{
+    margin-bottom: 50px;
+  }
+
+  .service_item h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .nail_page img,.hair img,.events img,.face_wax img{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .events .pack{
+    margin: 0px 0px 20px 0px;
+  }
+
+  .nails_sec{
+    margin-bottom: 50px;
+  }
+
+  .team .client_holder{
+    margin-bottom: 30px;
+  }
+
+  nav a{
+  font-size: 10px;
+}
+}  
+
+@media screen and (max-width:768px){
+  div#formBox {
+    width: 60% !important;
+}
+
+  header{
+    height: 500px;
+  }
+
+  .header_intro{
+    height: 500px;
+  }
+
+  .team .client_holder{
+    margin: 40px 0px;
+  } 
+
+  h2{
+    font-size: 30px;
+  }
+  .welcome_banner {
+    width: 95%;
+    padding: 15px;
+    transform:translateY(25%);
+    -webkit-transform:translateY(25%);
+    -ms-transform:translateY(25%);
+    -o-transform:translateY(25%);
+    -moz-transform:translateY(25%);
+  }
+
+
+  .welcome_banner h1{
+    margin-bottom: 20px;
+  }
+
+  .welcome_banner p{
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .welcome_banner .sub_heading a{
+    font-size: 20px;
+  }
+
+  .item_container{
+    font-size: 8px;
+  }
+
+  .service_item{
+    margin-bottom: 50px;
+  }
+
+  .products .carousel {
+    height: 300px !important;
+  }
+  .products .carousel .item {
+    height: 300px !important;
+  }
+  .products .carousel-inner > .item > img {
+    height: 300px !important;
+  }
+
+  .loaded{
+    left: 37%;
+    top: 45%;
+  }
+
+  #services, .products, .happy_clients, #contact, .team,.nail_disc,.first_row,.second_row,.third_row,.fourth_row,.events,.eyelashes,.face_wax{
+    padding: 3rem 0rem 3rem 0rem;
+  }
+
+  .home_intro {
+    padding: 8rem 0rem 8rem 0rem;
+}
+
+  .welcome_banner .sub_heading li a{
+    padding: 5px 8px;
+  }
+
+  .event_disc{
+    text-align: left !important;
+    font-size: 1.8em;
+  }
+
+
+  .columns {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+
+section .big{
+  width: 100% !important;
+  float: none;
+}
+
+  section .small{
+  width: 50% !important;
+  float: left;
+}
+
+  section .floated-block{
+  float: none;
+  width: 100%!important;  
+}
+
+  section .no-float{
+  float: left!important;
+  width: 50%!important;
+
+}
+
+.recent-work-wrap img{
+  width: 100%;
+}
+
+  nav a{
+  font-size: 9px;
+}
+}
+
+
+@media screen and (max-width:425px){
+  .loaded{
+    left: 30%;
+    top: 35%;
+  }
+
+  header{
+    height: 400px;
+  }
+
+  .header_intro{
+    height: 400px;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d73781;
+    width: 250px;
+    height: 100vh;
+    transform: translate3d(-250px, 0, 0);
+    transition: transform 0.35s;
+    z-index: 9999;
+  }
+
+  nav{
+    padding-top: 10px;
+  }
+
+  nav a{
+  font-size: 10px;
+}
+
+  .nav_social{
+    bottom: 0;
+    margin-top: 0px;
+  }
+
+  
+
+  .welcome_banner {
+    width: 100%;
+    padding: 15px;
+    transform:translateY(1%);
+    -webkit-transform:translateY(1%);
+    -ms-transform:translateY(1%);
+    -o-transform:translateY(1%);
+    -moz-transform:translateY(1%);
+  }
+
+  .welcome_banner h1 {
+    font-size: 34px;
+  }
+
+  .welcome_banner p{
+    width: 100%;
+    font-size: 18px;  
+    padding: 10px;
+  }
+
+  .welcome_banner ul{
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
+  }
+
+  .welcome_banner .book {
+    padding-bottom: 15px;
+  }
+
+  .home_into p{
+    font-size: 1.1em;
+  }
+
+  .item_container li{
+    display: block;
+  }
+
+  .top_contact {
+    min-height: 150px;
+  }
+
+  .mobile_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #services h3{
+    padding: 0px 0px 0px 11px;
+  }
+
+  #services, .products, .happy_clients, #contact, .team,.nail_disc,.events,.eyelashes,.face_wax{
+    padding:0px;
+  }
+
+  .home_intro{
+    padding: 10rem 0rem 0rem 0rem;;
+  }
+
+  .home_intro p{
+    font-size:1.5em;
+  }
+
+  .portfolio{
+    padding: 0rem 0rem 4rem 0rem;
+  }
+
+  .products .carousel {
+    height: 200px !important;
+  }
+  .products .carousel .item {
+    height: 200px !important;
+  }
+  .products .carousel-inner > .item > img {
+    height: 200px !important;
+  }
+
+  .welcome_banner .sub_heading li a{
+    padding: 5px 3px;
+  }
+
+  .event_disc{
+    text-align: left !important;
+    font-size: 14px;
+  }
+
+}
+
+  @media screen and (max-width:480px){
+    section .small{
+    width: 100% !important;
+    float: none;
+  }
+
+  .columns {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+  }
+
+  .menu .logo img{
+    max-width: 80%;
+    margin: 0 auto
+  }
+}
+
+  @media screen and (max-width:475px){
+
+    div#formBox {
+    width: 80% !important;
+}
+
+    .headerRow div,.itemRow div,#cartTotal{
+      font-size: 9px !important;
+    } 
+
+    .shopping_cart .btn { 
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:375px){
+
+  .headerRow div,.itemRow div,#cartTotal{
+      font-size: 8px !important;
+    }
+
+  .loaded{
+    left: 27%;
+    top: 30%;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #d73781;
+    width: 160px;;
+    height: 100vh;
+    transform: translate3d(-160px, 0, 0);
+    transition: transform 0.35s;
+    z-index: 9999;
+  }
+
+
+
+  .products .carousel {
+    height: 150px !important;
+  }
+  .products .carousel .item {
+    height: 150px !important;
+  }
+  .products .carousel-inner > .item > img {
+    height: 150px !important;
+  }
+
+  .welcome_banner .sub_heading a{
+    font-size: 15px;
+  }
+}

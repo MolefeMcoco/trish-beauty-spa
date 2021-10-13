@@ -1,0 +1,65 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+label {
+  cursor: pointer;
+}
+label:focus {
+  outline: none;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #d73781;
+  width: 200px;
+  height: 100vh;
+  transform: translate3d(-200px, 0, 0);
+  transition: transform 0.35s;
+  z-index: 9999;
+}
+.menu label.menu-toggle {
+  position: fixed;
+  top: 0px;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  line-height: 0px;
+  display: block;
+  padding: 0;
+  text-indent: -9999px;
+  background: rgba(215, 55, 129, 0.81) url('../images/button.png') 50% 50%/25px 25px no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5098039215686274);
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5098039215686274) !important;
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5098039215686274) !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5098039215686274) !important;
+  
+}
+
+.menu label.menu-toggle.active{
+  background: rgba(215, 55, 129, 0.81) url('../images/backspace.png') 50% 50%/25px 25px no-repeat;
+}
+
+
+
+
+/* hide inputs */
+.menu-checkbox {
+  display: none;
+}
+
+/* hide navigation icon for sublabels */
+.menu .menu label.menu-toggle {
+  background: none;
+}
+
+/* fade in checked menu */
+.menu-checkbox:checked + .menu {
+  transform: translate3d(0, 0, 0);
+}
+
